@@ -4,10 +4,10 @@ rico(c).
 rico(d).
 rico(e).
 
-famoso(a).
-famoso(b).
-famoso(c).
-famoso(d).
-famoso(e).
+famoso(k).
+famoso(l).
+famoso(m).
+famoso(n).
+famoso(o).
 
-eh_feliz(X) :- rico(X), famoso(X).
+eh_feliz(X) :- rico(X); famoso(X).
