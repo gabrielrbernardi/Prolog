@@ -1,4 +1,4 @@
-ehVazia(List) :- not(member(_,List)).
+ehVazia(Lista) :- not(member(_,Lista)).
 
 pulaSapo(N, [A, B|C]) :-
     X is B-A, %X recebera o valor da diferenca entre os dois proximos canos
